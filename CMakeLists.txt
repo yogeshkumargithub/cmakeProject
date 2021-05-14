@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.6)
  
-# Locate GTest,  it is comment on dev1 merged on dev branch
+# Locate GTest,it is dev1 branch
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
  
