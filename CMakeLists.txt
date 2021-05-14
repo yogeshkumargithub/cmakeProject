@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.6)
  
-# Locate GTest. It's a comment
+# Locate GTest. It's a comment on dev branch
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
  
